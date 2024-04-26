@@ -14,10 +14,10 @@ app.get("/", (req, res) => {
 
 app.get("/job", (req, res) => {
   addJob();
-  res.send("Hello World!");
+  res.send("Job added!");
 });
 
 app.listen(port, () => {
-  console.info("Server rodando na porta 3000");
+  console.info("Server running on port 3000");
 });
 
